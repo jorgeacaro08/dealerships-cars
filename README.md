@@ -64,3 +64,7 @@ docker compose down        # apagar (los datos se conservan)
 docker compose down -v     # apagar y BORRAR datos (al subir de nuevo se recargan los iniciales)
 docker exec -it dealerships_db psql -U dealer -d dealerships_db   # consola SQL
 ```
+
+## API
+
+El proyecto NestJS esta en la carpeta `api/`, las instrucciones para correrlo y probarlo estan en `api/README.md`.
